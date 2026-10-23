@@ -1,5 +1,7 @@
 # Data dictionary: data/hospital_30min_series.csv
 
+Restricted data: the file is not distributed with the code. It is available from the corresponding author on reasonable request, subject to the hospital's approval (see `DATA_ACCESS.md`).
+
 61,680 rows, one row per 30-min interval on the full grid (written by `a20_export_dataset.py`). Interval energies are hospital totals of the three PV zones and are empty where any zone failed QC.
 
 | Column | Description | Unit | Notes |

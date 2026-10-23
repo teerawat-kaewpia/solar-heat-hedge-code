@@ -1,5 +1,6 @@
-"""Reviewer check: redraw every figure and recompute every reported number from the result files shipped in results/.
-usage: python reproduce.py [--output-dir reproduced]        (about 1-2 min, needs only requirements.txt)
+"""Check of every figure and every reported number from the result files in results/. The result files are not distributed with the code, they are
+supplied to authorised users on request (see DATA_ACCESS.md) and must be placed in results/ next to this script before it can run.
+usage: python reproduce.py [--output-dir reproduced]        (about 1-2 min, needs requirements.txt and results/)
 
 1. copies results/ to the output folder and rebuilds the two intermediate tables from their exact gzip CSV copies,
 2. runs the figure scripts (Fig. 1-6, Fig. S1-S6, graphical abstract) and compares each image with results/reference_figures,
@@ -38,6 +39,8 @@ def compare_image(new, ref):
 def main():
     ap = argparse.ArgumentParser(description=__doc__.split('\n')[0]); ap.add_argument('--output-dir', type=Path, default=Path('reproduced'))
     out = ap.parse_args().output_dir.resolve()
+    if not (RES / 'reported_values.json').is_file():
+        sys.exit(f'No result files in {RES}. They are supplied to authorised users on request (see DATA_ACCESS.md), place them there and run again.')
     if out.exists() and any(out.iterdir()): sys.exit(f'Output folder is not empty: {out}')
     out.mkdir(parents=True, exist_ok=True)
     for f in RES.iterdir():

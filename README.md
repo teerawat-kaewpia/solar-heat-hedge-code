@@ -40,7 +40,7 @@ python reproduce.py                                                             
 | `a17_bootstrap_compare.py` | Five bootstrap designs, reference attribution held fixed (Table S2a) |
 | `a18_block_sensitivity.py` | Block-length sensitivity under the primary design (Table S2b) |
 | `a19_synthesis_fig.py` | Synthesis figure (Fig. S5), numbers read from the result files |
-| `a20_export_dataset.py` | Public dataset |
+| `a20_export_dataset.py` | Hospital-level 30-min series (restricted, available on request) |
 | `a21_reported_values.py` | Descriptive values quoted in the text, each with its definition and denominator |
 | `a22_family_targets.py` | $k^*_{imp}$ and $k^*_{peak}$ for the six model families at every warming level |
 | `a23_fig6.py` | Fig. 6 (energy versus peak multipliers across families) and Fig. S6 |
