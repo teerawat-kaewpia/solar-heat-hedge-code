@@ -1,4 +1,4 @@
-# Annual-energy metrics overstate rooftop PV’s ability to limit hospital peak demand under warming: code
+# Annual-energy metrics overstate rooftop PV’s ability to limit hospital peak demand under warming: code package
 
 Analysis code for the article *"Annual-energy metrics overstate rooftop PV’s ability to limit hospital peak demand under warming"* (Saengsuwan and Kaewpia). It computes every table, figure and number of the article and its Supplementary Material.
 
@@ -46,7 +46,7 @@ python reproduce.py                                                             
 | `a23_fig6.py` | Fig. 6 (energy versus peak multipliers across families) and Fig. S6 |
 | `pdfwrap.py` | Vector PDF versions of the `a3_figs.py` figures (PDF only, PNGs left untouched, checked by `run_all.py`) |
 | `reported_values.py` | Definition of every number quoted in the article and the Supplementary Material, computed from the result files |
-| `results_io.py`, `reproduce.py` | Exact pickle-free storage of the intermediate tables, and the reviewer check described above |
+| `results_io.py`, `reproduce.py` | Exact pickle-free storage of the intermediate tables, and the check of every figure and reported number from `results/` (available on request) |
 | `a24_graphical_abstract.py` | Graphical abstract (`graphical_abstract.tif/.pdf/.png`, 13 cm wide) |
 
 ## Intervals

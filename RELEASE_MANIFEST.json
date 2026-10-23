@@ -1,12 +1,12 @@
 {
- "built_from": "submission package snapshot 16, manifest c308733ab34da792748135381801641ca73cd1327ae07620d4a26237b4b408fe",
+ "built_from": "submission package snapshot 17, manifest 9abb8334df9df96f2659b18c2fecd095edd3d0d00e06a2dcca2d361c77d427ed",
  "files": {
   ".gitignore": "2f0e11eb91ed8164d15ee24a4ffde5b4843fa8a85873293d54061b23cbf9fb82",
   ".zenodo.json": "5736396cedc2883319af762444f0e586795d593b85ca6fa15f54c6a6dbc8fb90",
   "DATA_ACCESS.md": "070087fa5b5188fd95a31975d7aedb7edba91eea1f283420302e39a01f55a0a6",
   "DATA_DICTIONARY.md": "baff43ff1c33949b77878d464bce37e7ce3f6451ebd5036062cc5f99c7535a60",
   "LICENSE": "945783294fa7aa166816ee91d794ec896f4c6219c5672336e0836e40de07c29b",
-  "README.md": "319142cda5f027669e0cfac3a46be6170f2a7e2c8df4e7f849d0e7a90d06ed98",
+  "README.md": "73b8382de4440c4bb1e97f0354be25bc83f9fc52d6cb1dfbf551464e55a1c344",
   "a10_v8.py": "63268e6ebed14a48cb4260be84e4d537ee669e8da149e4495d80d6919aeb741a",
   "a11_surfaces_fig.py": "3aa3b9413bcf895669e1ebb585b0fb7fc1af49e249939e207884dfb290fadcd4",
   "a12_calib_kstar.py": "6b744615868ff155395a2ae25e60ca9204ac70c07cbd9a26675f6f59b7d617ba",
