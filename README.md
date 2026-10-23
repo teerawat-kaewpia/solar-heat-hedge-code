@@ -1,6 +1,6 @@
 # Annual-energy metrics overstate rooftop PV’s ability to limit hospital peak demand under warming: code package
 
-Analysis code for the article *"Annual-energy metrics overstate rooftop PV’s ability to limit hospital peak demand under warming"* (Saengsuwan and Kaewpia). It computes every table, figure and number of the article and its Supplementary Material.
+Analysis code for the article *"Annual-energy metrics overstate rooftop PV’s ability to limit hospital peak demand under warming"* (Saengsuwan and Kaewpia). It contains the full pipeline behind the tables, figures and reported numbers of the article and its Supplementary Material. Full reproduction requires authorized access to the restricted data described below.
 
 ## Data
 The data are not distributed with this code. The following can be requested from the corresponding author (teerawat.kae@crru.ac.th), subject to the hospital's approval (see `DATA_ACCESS.md`):
