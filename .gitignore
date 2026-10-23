@@ -1,0 +1,17 @@
+# data and results are available on request only, never commit them
+data/
+results/
+invoice/
+*.csv
+*.csv.gz
+*.pdf
+*.xlsx
+*.pkl
+*.npz
+*.joblib
+outputs/
+reproduced/
+prev/
+__pycache__/
+*.py[cod]
+.venv/

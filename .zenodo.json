@@ -1,0 +1,24 @@
+{
+ "title": "Code for: Annual-energy metrics overstate rooftop PV’s ability to limit hospital peak demand under warming",
+ "upload_type": "software",
+ "license": "MIT",
+ "access_right": "open",
+ "description": "Analysis code for the article. The data are available from the corresponding author on request, subject to the hospital's approval (see DATA_ACCESS.md).",
+ "creators": [
+  {
+   "name": "Saengsuwan, Thanapon",
+   "affiliation": "Chiang Rai Rajabhat University, Chiang Rai, Thailand"
+  },
+  {
+   "name": "Kaewpia, Teerawat",
+   "affiliation": "Chiang Rai Rajabhat University, Chiang Rai, Thailand"
+  }
+ ],
+ "keywords": [
+  "rooftop photovoltaics",
+  "hospital",
+  "peak demand",
+  "temperature-driven load",
+  "load matching"
+ ]
+}
